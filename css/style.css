@@ -118,6 +118,18 @@ ul{
     position: relative;    
 
 }
+
+.row1
+{
+    /* display: inline; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;    
+
+}
+
 .btn
 {
     font-size: 16px;
@@ -824,4 +836,15 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
+}
+
+.tanisha
+{
+        display: block;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: var(--logo);
+        background-size: 60px;
+        height: 80px;
+        padding-left: 40px;
 }
